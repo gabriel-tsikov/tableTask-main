@@ -1,0 +1,78 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .login-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  .form-holder {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+  }
+
+  .required {
+    font-size: 18px;
+  }
+
+  .form-controller {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .button-holder {
+    display: flex;
+
+    justify-content: center;
+
+    .login-button {
+      background-color: #555555;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  }
+
+  .login-button:hover {
+    background-color: #84ddb2b9;
+  }
+
+  .label-holder {
+    display: flex;
+    justify-content: space-between;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .login-holder {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+  }
+}

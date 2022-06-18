@@ -1,0 +1,43 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+
+    .filter-holder {
+      display: flex;
+      align-items: center;
+
+      .filter-item {
+        margin-left: 10px;
+      }
+
+      #checkbox-margin {
+        margin-left: 10px;
+      }
+    }
+
+    .table-content {
+      table {
+        width: 750px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        min-width: 500px;
+      }
+
+      th.mat-header-cell {
+        text-align: left;
+        max-width: 300px;
+      }
+    }
+  }
+}

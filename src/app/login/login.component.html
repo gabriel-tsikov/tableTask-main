@@ -1,0 +1,46 @@
+<div class="login-page">
+  <h1 class="login-title">Login</h1>
+
+  <div class="login-holder">
+    <form #loginForm="ngForm" novalidate class="form" autocomplete="off">
+      <div class="form-holder">
+        <label class="label-holder" for="email">Email: </label>
+
+        <input
+          class="form-controller"
+          ngModel
+          type="text"
+          name="email"
+          required
+          id="email"
+          placeholder="Email.."
+        />
+      </div>
+      <div class="form-holder">
+        <label class="label-holder" for="password">Password: </label>
+        <input
+          class="form-controller"
+          ngModel
+          type="password"
+          name="password"
+          required
+          id="password"
+          placeholder="Password..."
+        />
+      </div>
+
+      <div class="button-holder">
+        <span>
+          <button
+            type="submit"
+            [disabled]="loginForm.invalid"
+            class="login-button"
+            (click)="login(loginForm.value)"
+          >
+            Login
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
+</div>

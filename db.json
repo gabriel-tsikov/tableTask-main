@@ -1,0 +1,42 @@
+{
+  "user": {
+    "email": "sad",
+    "password": "asd"
+  },
+  "payments": [
+    {
+      "description": "English language course",
+      "amount": 100,
+      "category": "business",
+      "status": "pending",
+      "due_date": "2022-06-18T15:02:39.344Z",
+      "currency": "BGN"
+    },
+    {
+      "description": "Subscription for AWS",
+      "amount": 300,
+      "category": "business",
+      "status": "completed",
+      "due_date": "2022-06-10T15:02:39.344Z",
+      "urgency": "high",
+      "currency": "USD"
+    },
+    {
+      "description": "Personal Insurance",
+      "category": "personal",
+      "amount": 50,
+      "status": "pending",
+      "due_date": "2022-06-09T15:02:39.344Z",
+      "urgency": "normal",
+      "currency": "EUR"
+    },
+    {
+      "description": "Bus card",
+      "category": "personal",
+      "amount": 20,
+      "status": "pending",
+      "due_date": "2022-06-21T15:02:39.344Z",
+      "currency": "BGN"
+    }
+  ]
+}
